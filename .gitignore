@@ -1,0 +1,31 @@
+# ===== 数据集（体积过大，不上传）=====
+dataset/
+train/
+test/
+
+# ===== 模型权重 =====
+checkpoints/
+checkpoints_enhanced/
+*.pt
+*.pth
+
+# ===== 缓存 =====
+clip_cache/
+code/clip_cache/
+**/clip_cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 日志与输出 =====
+logs/
+logs_enhanced/
+outputs/
+*.log
+
+# ===== 其他大文件 / 临时文件 =====
+123.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
